@@ -1,0 +1,56 @@
+.form-container {
+  width: 100%;
+  background-color: rgb(9, 8, 8);
+  display: block;
+  min-height: 100vh;
+  margin: auto;
+  padding: 40px;
+  padding-left: 400px;
+}
+
+body {
+  margin: 0;
+}
+
+.space {
+  display: block;
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.space:focus {
+  outline: none;
+}
+.space-bottom {
+  margin-bottom: 30px;
+}
+
+.label {
+  color: white;
+  font-size: 20px;
+  display: block;
+}
+
+.input {
+  padding: 10px;
+  color: black;
+  background-color: white;
+  width: 40%;
+}
+
+.button {
+  background-color: rgba(0, 0, 255, 0.839);
+  width: 20%;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 200;
+  font-size: 20px;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(71, 69, 230);
+}
