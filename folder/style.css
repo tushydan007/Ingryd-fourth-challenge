@@ -25,6 +25,8 @@ body {
 }
 .space-bottom {
   margin-bottom: 30px;
+  display: block;
+  width: 300px;
 }
 
 .label {
