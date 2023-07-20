@@ -5,21 +5,25 @@
   align-items: center;
   justify-content: center;
   color: #ff0000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .parent-div {
   display: block;
-  place-content: center;
   width: 30%;
   border: 2px solid gray;
   margin: auto;
-  margin-top: 10px;
   padding: 6px;
   margin-bottom: 30px;
   overflow: hidden;
   height: 80px;
   transition: height 0.3s ease-in-out;
   cursor: pointer;
+  /* position: relative; */
+  margin-top: 100px;
 }
 
 .parent-div:hover {
