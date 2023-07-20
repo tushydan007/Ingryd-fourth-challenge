@@ -1,34 +1,41 @@
 .navbar {
   width: 100%;
-  background-color: #000;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff0000;
+  color: #000;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .parent-div {
   display: block;
-  width: 30%;
-  border: 2px solid gray;
-  margin: auto;
-  padding: 6px;
+  width: 100%;
+  padding: 2px;
   margin-bottom: 30px;
   overflow: hidden;
-  height: 80px;
-  transition: height 0.3s ease-in-out;
   cursor: pointer;
-  /* position: relative; */
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
-.parent-div:hover {
-  height: 100%;
+.div2 {
+  background-color: #ffffff;
+  position: fixed;
+  top: 300px;
+  left: 0;
+  padding: 5px;
+  font-weight: 700;
+  cursor: pointer;
 }
+
+/* .parent-div:hover {
+  height: 100%;
+} */
 
 img {
   overflow: hidden;
@@ -41,7 +48,5 @@ body {
 }
 
 p {
-  font-size: 20px;
-  margin: 0;
-  text-align: justify;
+  font-size: 25px;
 }
